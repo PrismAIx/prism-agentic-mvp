@@ -1,0 +1,17 @@
+/* Reset and base styles — tokens are in tokens.css, imported by App.tsx */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar hide for webkit (mirrors home.html .scroll::-webkit-scrollbar) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: #050507;
+}
